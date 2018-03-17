@@ -14,7 +14,7 @@ describe('Catalytic home page Demo', function() {
       it('should SignIn', function () {
 		browser.waitForAngularEnabled(false);
 		browser.driver.ignoreSynchronization = true
-        browser.driver.get('https://stg.catalyticds.com/');
+        browser.driver.get('https://');
         //var goToSigninButton = element(by.linkText('SIGN IN'));
         //goToLoginButton.click();
         //element(by.id('cs-log-in')).click();
