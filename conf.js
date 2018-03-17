@@ -7,7 +7,7 @@ exports.config = {
 
   framework:'jasmine2',
   
-  specs: ['spec.js'],
+  specs: ['spec2.js'],
   //jasmineNodeOpts: {
     //showColors: true, // Use colors in the command line report.
   //}
