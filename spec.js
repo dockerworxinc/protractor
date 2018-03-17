@@ -7,7 +7,8 @@ describe('Google home page Demo', function() {
 		  
 		browser.driver.ignoreSynchronization = true   
         browser.driver.get('https://www.moneycontrol.com/');
-        //var goToSigninButton = element(by.linkText('SIGN IN'));
+        
+		//var goToSigninButton = element(by.linkText('SIGN IN'));
         //goToLoginButton.click();
         //element(by.id('cs-log-in')).click();
 
