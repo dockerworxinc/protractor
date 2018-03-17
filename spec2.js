@@ -40,6 +40,6 @@ describe('Catalytic home page Demo', function() {
       });
 
       
-    });
+   
   
   });
