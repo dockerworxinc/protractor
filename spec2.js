@@ -36,10 +36,10 @@ describe('Catalytic home page Demo', function() {
         //helper.waitUntilReady();
 
         var username_text=browser.driver.findElement(by.id('cat-login-email'));
-        username_text.sendKeys('parvinder.kaur+stg@catalyticds.com');
+        username_text.sendKeys('');
 
         var password_text=browser.driver.findElement(by.id('cat-login-password'));
-        password_text.sendKeys('Catalytic@1803');
+        password_text.sendKeys('');
 
       var SignInButton=browser.driver.findElement(by.className('login-label'));
         SignInButton.click();
