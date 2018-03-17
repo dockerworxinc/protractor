@@ -4,7 +4,7 @@ describe('Catalytic home page Demo', function() {
   it('should have a title', function() {
 	browser.waitForAngularEnabled(false);
 	browser.driver.ignoreSynchronization = true
-    browser.get('https://stg.catalyticds.com/');
+    browser.get(''); ## Add your site name
 
     var title ='Catalytic';
      expect(browser.driver.getTitle()).toEqual(title);
@@ -36,10 +36,10 @@ describe('Catalytic home page Demo', function() {
         //helper.waitUntilReady();
 
         var username_text=browser.driver.findElement(by.id('cat-login-email'));
-        username_text.sendKeys('');
+        username_text.sendKeys('');  ## Add Email here and remove this after hash
 
         var password_text=browser.driver.findElement(by.id('cat-login-password'));
-        password_text.sendKeys('');
+        password_text.sendKeys('');  ## Add Password and remove this after hash
 
       var SignInButton=browser.driver.findElement(by.className('login-label'));
         SignInButton.click();
